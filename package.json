@@ -1,0 +1,13 @@
+{
+    "name": "wasallny-server",
+    "version": "1.0.0",
+    "main": "socket-server.mjs",
+    "type": "module",
+    "scripts": {
+        "start": "node socket-server.mjs"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "socket.io": "^4.8.1"
+    }
+}
