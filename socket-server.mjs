@@ -1,7 +1,7 @@
 import { createServer } from "http";
 import { Server } from "socket.io";
 
-const PORT = process.env.WS_PORT ? Number(process.env.WS_PORT) : 4000;
+const PORT = process.env.PORT || 4000;
 const ALLOWED_ORIGIN = process.env.WS_CORS_ORIGIN || "*";
 
 const httpServer = createServer();
